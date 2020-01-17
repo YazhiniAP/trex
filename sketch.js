@@ -2,6 +2,10 @@ var trex, trex_running, trex_collided;
 var ground, invisibleGround, groundImage;
 var cloudGroup, cloudImage;
 var obstacleGroup, obstacle1, obstacle2, obstacle3, obstacle4, obstacle5, obstacle6;
+var PLAY = 1;
+var END=0;
+var gameState= PLAY;
+var gameOver,restart, overI,restartI;
 
 function preload(){
   trex_running = loadAnimation("trex1.png","trex3.png","trex4.png");
