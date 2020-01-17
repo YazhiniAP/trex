@@ -46,8 +46,8 @@ gameOver.scale = 0.5;
 restart.addImage("restart",restartI);
 restart.scale = 0.5;
 
-gameOver.visible = false;
-restart.visible = false;
+//gameOver.visible = false;
+//restart.visible = false;
   
   
 
